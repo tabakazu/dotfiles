@@ -1,5 +1,6 @@
 ## Alias
 alias rm='rmtrash'
+alias gc='git branch | peco | xargs git checkout'
 
 ## Ruby (rbenv)
 status --is-interactive; and source (rbenv init -|psub)
