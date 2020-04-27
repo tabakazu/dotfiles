@@ -1,6 +1,6 @@
 " vim-plugin
 call plug#begin()
-Plug 'scrooloose/nerdtree'
+Plug 'preservim/nerdtree'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 call plug#end()
 " Run :PlugInstall
