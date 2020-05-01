@@ -1,11 +1,15 @@
 " vim-plugin
+"   :PlugInstall
+"   :PlugUpdate!
 call plug#begin()
 Plug 'preservim/nerdtree'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 call plug#end()
-" Run :PlugInstall
 
 " NERDTree plugin
+"  Ctrl + e
 nnoremap <silent><C-e> :NERDTreeToggle<CR>
 
 " バックアップを作成しない
