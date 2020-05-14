@@ -1,3 +1,5 @@
+inoremap <silent> jj <ESC>
+
 " vim-plugin
 "   :PlugInstall
 "   :PlugUpdate!
@@ -55,5 +57,3 @@ set expandtab
 set smartindent
 " 改行時に前の行のインデントを継続
 set autoindent
-" コピペの自動インデント無効化
-set paste
