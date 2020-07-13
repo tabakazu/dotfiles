@@ -11,6 +11,9 @@ Plug 'prabirshrestha/vim-lsp'
 Plug 'mattn/vim-lsp-settings'
 Plug 'mattn/vim-lsp-icons'
 
+" Asynchronous Lint Engine Plugins
+Plug 'dense-analysis/ale'
+
 " File System Explorer Plugins
 Plug 'preservim/nerdtree'
 
@@ -31,6 +34,14 @@ call plug#end()
 " --- NERDTree Settings ----
 "  Ctrl + e
 nnoremap <silent><C-e> :NERDTreeToggle<CR>
+
+
+" ----------------------
+" ---- ALE Settings ----
+let g:ale_fixers = {
+      \ 'ruby': ['rubocop'],
+      \ }
+"let g:ale_fix_on_save = 1
 
 
 " -----------------------------
