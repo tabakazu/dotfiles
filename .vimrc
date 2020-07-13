@@ -20,6 +20,10 @@ Plug 'junegunn/fzf.vim'
 
 " Golang Plugins
 Plug 'mattn/vim-goimports'
+
+" Ruby Plugins
+Plug 'tpope/vim-endwise'
+
 call plug#end()
 
 
