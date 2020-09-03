@@ -21,6 +21,9 @@ Plug 'preservim/nerdtree'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
+" Easy Motion Plugins
+Plug 'easymotion/vim-easymotion'
+
 " Golang Plugins
 Plug 'mattn/vim-goimports'
 
