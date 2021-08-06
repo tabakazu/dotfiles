@@ -1,5 +1,4 @@
 ## Alias
-alias rm='rmtrash'
 alias gc='git branch | peco | xargs git checkout'
 
 ## Original Prompt
